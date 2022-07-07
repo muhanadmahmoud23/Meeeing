@@ -3,13 +3,14 @@
 2. this solution focus on backend 
 
 3. Follow The single responsibility principle ;
-    AddProductController@BuyProduct : responsable for calculating Items Properties 
-    DatabaseTrait@OrdersTableCreateDB : send data to order table
-    DatabaseTrait@CartsTableCreateDB : send data to cart table
-    DatabaseTrait@OrdersTableUpdateDB : Get All Order Properties to DataBase
-    DiscountTrait@ShoesDisount : get shoes discount value if order conatins shoe item type
-    DiscountTrait@ItemsNumberDiscount : get shipping discount value order got 2 items or more
-    DiscountTrait@JacketDiscount : get jacket discount value if order conatins (tshirt,blouse)
+    - AddProductController@BuyProduct : responsable for calculating Items Properties 
+    - DatabaseTrait@OrdersTableCreateDB : send data to order table
+    - DatabaseTrait@CartsTableCreateDB : send data to cart table
+    - DatabaseTrait@OrdersTableUpdateDB : Get All Order Properties to DataBase
+    - DiscountTrait@ShoesDisount : get shoes discount value if order conatins shoe item type
+    - DiscountTrait@ItemsNumberDiscount : get shipping discount value order got 2 items or more
+    - DiscountTrait@JacketDiscount : get jacket discount value if order conatins (tshirt,blouse)
+
 -- All the traits Follow the OOP Encapsualtion, Inheritance, Abstarction Properties;
 
 - Easy maintaince
